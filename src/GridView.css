@@ -1,0 +1,33 @@
+.student{
+    border: 2px solid white;
+    padding: 20px;
+    margin:20px auto;
+    max-width: 400px;
+    cursor: pointer;
+    color: white;
+    background-color:black;
+    border-radius:20px;
+
+}
+.grid-view{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(3,1fr);
+    
+}
+
+@media(max-width:1067px){
+.grid-view{
+    padding: 0 10px;
+    background-color: grey;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:524px){
+   .grid-view{
+     padding: 0 10px;
+    background-color: brown;
+    grid-template-columns: 1fr;}
+
+
+}
