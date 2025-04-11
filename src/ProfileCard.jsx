@@ -1,5 +1,5 @@
 import React from "react";
-import viteLogo from "./react.svg"
+import viteLogo from "./assets/react.svg"
 
 const ProfileCard=({profile})=>{
     return(
